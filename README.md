@@ -2,7 +2,7 @@
 
 1. Change theme to dark 
 	```
-	System Preferences>General>Appearance>Dark
+	System Preferences > General > Appearance > Dark
 	```
 
 2. [Install Homebrew](http://osxdaily.com/2018/03/07/how-install-homebrew-mac-os/)
@@ -29,12 +29,23 @@
     	git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
     	```
     	- In `~./zshrc` set `ZSH_THEME="powerlevel9k/powerlevel9k"` and update with `source ~/.zshrc`
+    - Install powerline font
+    	```
+    	git clone https://github.com/powerline/fonts.git
+		cd fonts
+		./install.sh
+		```
+    	- Navigate to `iTerm2 > Preferences > Profiles > Text > Font > Inconsolata`
+	- Set color theme
+		- Download `https://github.com/mbadolato/iTerm2-Color-Schemes`
+		- Navigate to `Preferences > Profiles > Colors > Color Presets` and import `Arthur` 
+		- Set `Preferences > Profiles > Colors > Color Presets > Arthur`
 
 4. Spectacle 
 	```
 	brew cask install spectacle
 	```
-	- NB: Spectacle is no longer actively maintaned and (Rectangle)[https://github.com/rxhanson/Rectangle] is a recommended open-source alternative
+	- NB: Spectacle is no longer actively maintaned and [Rectangle](https://github.com/rxhanson/Rectangle) is a recommended open-source alternative
 
 5. Disable Siri 
 	```
@@ -48,4 +59,4 @@
 	- (E, MMMM d h:mm a) and replace system clock
 
 7. Outlook
-	- Change read behavior (Outlook>Preferences>Reading>Mark Mail As Read)
+	- Change read behavior (`Outlook > Preferences > Reading > Mark Mail As Read`)
