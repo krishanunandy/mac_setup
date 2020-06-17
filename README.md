@@ -56,7 +56,8 @@
 	```
 	brew cask install itsycal
 	```
-	- (E, MMMM d h:mm a) and replace system clock
+	- Set date/time format to `E, MMMM d h:mm a`
+	- Replace system clock
 
 7. Outlook
 	- Change read behavior (`Outlook > Preferences > Reading > Mark Mail As Read`)
