@@ -29,7 +29,7 @@
     	git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
     	```
     	- In `~./zshrc` set `ZSH_THEME="powerlevel9k/powerlevel9k"` and update with `source ~/.zshrc`
-    - Install powerline font
+    - Install powerline fonts
     	```
     	git clone https://github.com/powerline/fonts.git
 		cd fonts
@@ -49,7 +49,7 @@
 
 5. Disable Siri 
 	```
-	System Preferences>Siri
+	System Preferences > Siri
 	```
 
 6. Install Itsycal 
