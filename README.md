@@ -40,6 +40,16 @@
 		- Download `https://github.com/mbadolato/iTerm2-Color-Schemes`
 		- Navigate to `Preferences > Profiles > Colors > Color Presets` and import `Arthur` 
 		- Set `Preferences > Profiles > Colors > Color Presets > Arthur`
+	- Install plugins
+		```
+		git clone https://github.com/zsh-users/zsh-docker.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-docker
+		```
+		- Add plugin to the plugin section of `~/.zshrc`
+		- Virtual environment
+			```
+			plugins=(virtualenv)
+			POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status virtualenv)
+			```
 
 4. Spectacle 
 	```
