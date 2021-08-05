@@ -13,7 +13,7 @@
 3. [Terminal](https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/)
     - iTerm2
     	```
-    	brew cask install iterm2
+    	brew install --cask iterm2
     	```
 	- ZSH
 		```
@@ -53,7 +53,7 @@
 
 4. Spectacle 
 	```
-	brew cask install spectacle
+	brew install --cask spectacle
 	```
 	- NB: Spectacle is no longer actively maintaned and [Rectangle](https://github.com/rxhanson/Rectangle) is a recommended open-source alternative
 
@@ -64,10 +64,18 @@
 
 6. Install Itsycal 
 	```
-	brew cask install itsycal
+	brew install --cask itsycal
 	```
 	- Set date/time format to `E, MMMM d h:mm a`
 	- Replace system clock
 
 7. Outlook
 	- Change read behavior (`Outlook > Preferences > Reading > Mark Mail As Read`)
+
+8. Install StatusClock from AppStore
+	- Set UTC time
+
+9. Install Statusfy
+	```
+	brew install --cask statusfy
+	```
